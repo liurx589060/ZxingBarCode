@@ -21,5 +21,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.2.0'
-    compile project(':zxingbar')
+//    compile project(':zxingbar')
+    compile 'com.lrx:zxingbar:1.0.0'
 }
